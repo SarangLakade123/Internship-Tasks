@@ -1,0 +1,135 @@
+#title {
+  color: #000;
+  background-color: #FF4C68;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-item{
+  font-size: 20;
+  font-weight: 500;
+
+}
+.topSection{
+  margin-top: 60px;
+  height: 480px;
+  background-image: url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.img{
+  padding-top: 50px;
+  width: 50%;
+  position: absolute;
+  right: 30px;
+}
+@media only screen and (max-width: 800px) {
+.img {
+    display: none;
+  }
+}
+.section{
+  height: 300px;
+  padding-top: 140px;
+}
+
+h1 {
+  color: #000;
+  font-family: 'Montserrat-Black';
+  font-size: 6rem;
+  line-height: 1.2;
+}
+
+.subHeading{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+
+    }
+.paragraph{
+  font-size: 23px;
+  line-height: 31px;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+}
+#testimonials {
+  height: 50%;
+  color: #fff;
+  text-align: center;
+  background-color: #e84a5f;
+}
+
+.carousel-item {
+  padding: 4% 9%;
+}
+
+.testimonials-image {
+  font-family: 'Montserrat';
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
+}
+
+#features {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  text-align: center;
+}
+
+.icon1 {
+  color: #e84a5f;
+}
+
+.icon1:hover {
+  color: #0B5374;
+}
+.sectionImage{
+  border-radius: 5%;
+  margin-bottom: 50px;
+  height: 100%;
+}
+.sectionHead{
+ font-size: 40px;
+ font-Weight:600;
+ padding-bottom: 20px;
+}
+.sectionPara{
+font-size: 20px;
+font-weight: 400;
+}
+.inner{
+  position: absolute;
+  margin: 0 auto;
+}
+.cardTitle{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+
+.footer{
+  width: 100%;
+align-content: center;
+padding-top: 100px;
+background-color: #263238;
+color: #fff;
+
+}
+.footerHead{
+    font-family: 'Montserrat-Black';
+    font-size: 31px;
+    font-weight: 800;
+    padding-bottom: 15px;
+
+}
+
+.customCoppyright{
+
+background-color: #1E282D;
+color: #838383;
+}

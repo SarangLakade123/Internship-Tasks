@@ -1,0 +1,64 @@
+.box{
+
+  width: 500px;
+  margin: auto;
+  border-style: outset;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-item{
+  font-size: 20;
+  font-weight: 500;
+
+}
+.head{
+
+  color: #000;
+  font-size: 28px;
+  padding: 24px 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+h2{
+  margin-top: 100px;
+  vertical-align: middle;
+}
+#blogPostImage{
+  height: 300px;
+  width: 900px;
+}
+.footer{
+align-content: center;
+padding-top: 40px;
+background-color: #263238;
+color: #fff;
+}
+.customCoppyright{
+
+background-color: #1E282D;
+color: #838383;
+}
+.footerHead{
+    font-family: 'Montserrat-Black';
+    font-size: 31px;
+    font-weight: 800;
+    padding-bottom: 15px;
+
+}

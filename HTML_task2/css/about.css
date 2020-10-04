@@ -1,0 +1,113 @@
+.navbar-brand{
+  font-weight: 700;
+  font-size: 20px;
+}
+.nav-item{
+  font-size: 20;
+  font-weight: 500;
+
+}
+.topSection{
+  margin-top: 60px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/03/09/09/22/workplace-1245776_1280.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+  width: 100%;
+}
+.subHeading{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 11%;
+  margin-bottom: 20px;
+    }
+.subHeadingCarousel{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.paragraph{
+  color: black;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 31px;
+  padding: 2% 5% 1% 5%;
+  text-align: center;
+}
+#features {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  text-align: center;
+}
+.featuresHeading{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.icon1 {
+  color: #e84a5f;
+}
+
+.icon1:hover {
+  color: #0B5374;
+}
+#testimonials {
+  height: 750px;
+  color: #fff;
+  text-align: center;
+  background-color: #e84a5f;
+}
+@media screen and (max-width:800px) {
+  #testimonials {
+    height: 900px;
+  }
+  .carousel-item {
+    padding: 2% 0;
+  }
+}
+.carousel-item {
+  padding: 2% 9%;
+}
+
+.testimonials-image {
+  font-family: 'Montserrat';
+  width: 13em;
+  height: 13em;
+  border-radius: 100%;
+}
+.position{
+  font-size: 23px;
+  font-weight: 400;
+
+}
+.name{
+  font-size: 25px;
+
+  font-weight: 500;
+}
+
+.footer{
+  width: 100%;
+align-content: center;
+padding-top: 40px;
+background-color: #263238;
+color: #fff;
+}
+.footerHead{
+    font-family: 'Montserrat-Black';
+    font-size: 31px;
+    font-weight: 800;
+    padding-bottom: 15px;
+
+}
+.customCoppyright{
+
+background-color: #1E282D;
+color: #838383;
+}

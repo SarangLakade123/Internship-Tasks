@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/4ba1a46d92.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+    <a class="navbar-brand ml-5" href="#">Potronics</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mr-5">
+        <li class="nav-item active">
+          <a class="nav-link " href="home.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-3" href="about-us.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-3" href="contact-us.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ml-3" href="blog.html">Blogs<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle ml-3" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Profile
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="login.html">Login</a>
+            <a class="dropdown-item" href="signup.html">Create Account</a>
+            <a class="dropdown-item" href="privacyPolicy.html">Privacy Policy</a>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!-- navbar -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Blog Entries Column -->
+      <div class="col-md-8">
+        <h1 class="my-4">Our Blogs
+        </h1>
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img id="blogImage" class="card-img-top" src="https://cdn.pixabay.com/photo/2015/03/13/20/42/plug-672231_1280.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Post Title</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!
+            </p>
+            <a href="blogPost1.html" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2020 by
+            <a href="#">Author</a>
+          </div>
+        </div>
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/08/02/19/09/people-2572972_1280.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Post Title</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!
+            </p>
+            <a href="blogPost2.html" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2020 by
+            <a href="#">Author</a>
+          </div>
+        </div>
+
+        <!-- Blog Post -->
+        <div class="card mb-4">
+          <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/10/25/10/07/music-instruments-2887457_1280.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h2 class="card-title">Post Title</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!
+            </p>
+            <a href="blogPost3.html" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+          <div class="card-footer text-muted">
+            Posted on January 1, 2020 by
+            <a href="#">Author</a>
+          </div>
+        </div>
+
+        <!-- Pagination -->
+        <ul class="pagination justify-content-center mb-4">
+          <li class="page-item">
+            <a class="page-link" href="#">&larr; Older</a>
+          </li>
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Newer &rarr;</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- Sidebar Widgets Column -->
+      <div class="col-md-4">
+
+        <!-- Search Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Search</h5>
+          <div class="card-body">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-append">
+                <button class="btn btn-secondary" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categories Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Categories</h5>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#">Web Design</a>
+                  </li>
+                  <li>
+                    <a href="#">HTML</a>
+                  </li>
+                  <li>
+                    <a href="#">Freebies</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#">JavaScript</a>
+                  </li>
+                  <li>
+                    <a href="#">CSS</a>
+                  </li>
+                  <li>
+                    <a href="#">Tutorials</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Side Widget</h5>
+          <div class="card-body">
+            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+
+  </div>
+  <!-- footer -->
+  <footer class="footer page-footer">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row mb-5">
+        <!-- column1 -->
+        <div class="col-md-4 mt-md-0 mt-3">
+          <h3 class="footerHead">Potronics</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3" />
+        <!-- column2 -->
+        <div class="col-lg-2 col-md-4 mb-md-0 mb-3 text-center">
+          <h3 class="footerHead">Quick Links</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="home.html">Home</a>
+            </li>
+            <li>
+              <a class="text-white" href="about-us.html">About Us</a>
+            </li>
+            <li>
+              <a class="text-white" href="contact-us.html">Contact Us</a>
+            </li>
+            <li>
+              <a class="text-white" href="blog.html">Blogs</a>
+            </li>
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3" />
+        <!-- column3 -->
+        <div class="col-lg-2 col-md-4 mb-md-0 mb-3 text-center">
+          <h3 class="footerHead">Links</h3>
+          <ul class="list-unstyled">
+            <li>
+              <a class="text-white" href="login.html">Log In</a>
+            </li>
+            <li>
+              <a class="text-white" href="signup.html">Create Account</a>
+            </li>
+
+
+          </ul>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3" />
+        <div class="col-lg-4 col-md-12">
+          <h3 class="footerHead text-center">Subscribe Us</h3>
+          <form>
+            <div class="form-row align-items-center justify-content-center">
+
+              <div class="col-sm-8 col-md-9 my-2 text-center" >
+                <label class="sr-only" for="inlineFormInputGroupUsername">Email Address?</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fas fa-at"></i></div>
+                  </div>
+                  <input type="email" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username" required>
+                </div>
+              </div>
+              <div class="col-sm-12 my-2 text-center">
+                <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="customSwitch1" required>
+                  <label class="custom-control-label" for="customSwitch1">Accept Tearms & Conditions</label>
+                </div>
+              </div>
+              <div class="col-12 my-2 text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3" />
+      </div>
+    </div>
+
+
+    <div class="row">
+
+      <div style="text-align: center" class="col-md-12">
+        <div class="mb-5 flex-center">
+
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- coppyright -->
+    <div class="footer-copyright text-center py-3 customCoppyright">© 2020 Copyright:
+      <a> XYZ</a>
+    </div>
+  </footer>
+  </div>
+
+  <!-- footer -->
+
+  <!-- /.container -->
+  <!-- bootstrapcdn -->
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
